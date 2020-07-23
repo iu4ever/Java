@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS myDatabase_2020
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_chinese_ci;
+
+CREATE DATABASE IF NOT EXISTS mall
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_unicode_ci;
+
+
+D:\MyApplications\MySoftware\MyDevelop\Mongodb\bin\mongod.exe --config "D:\MyApplications\MySoftware\MyDevelop\Mongodb\mongod.cfg" --install
+D:\MyApplications\MySoftware\MyDevelop\Mongodb\bin\mongod.exe  "D:\MyApplications\MySoftware\MyDevelop\Mongodb\mongod.cfg" 
